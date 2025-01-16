@@ -9,10 +9,9 @@ const AppRoutes: React.FC = () => {
     <Router>
       <MainLayout>
         <Routes>
-          {/* Public Routes */}
+
           <Route path="/" element={<HomePage />} />
-          
-          {/* Catch-All Route */}
+
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </MainLayout>
